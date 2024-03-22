@@ -10,11 +10,11 @@ loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
  if(passWord.value === pass && userName.value === user){
-        window.location="main.html"   
+        window.location="https://hope-developers-workspace.github.io/ke43-admin-main"; 
     }
+
     else{    
         alert("Invalid password or username!"); 
-        window.location ="login.html";
     }
 });
 
